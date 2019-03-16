@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./Components/AppComponent/App";
 
-const App = () => {
+const Index = () => {
   return (
     <div>
-      <h1>Hello!</h1>
+      <App />
     </div>
   );
 };
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+ReactDOM.render(<Index />, document.querySelector("#root"));
