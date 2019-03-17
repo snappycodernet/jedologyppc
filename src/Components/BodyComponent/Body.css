@@ -1,12 +1,130 @@
 .body-container {
-  background: #d8e1e9;
+  background: #776a9d;
   padding: 75px;
 }
 
+.bodyRow {
+  height: 90%;
+}
+
 .bodyText {
-  background: #eee;
+  background: #f5f5f5;
   padding: 25px;
   border-radius: 35px;
-  border: 1px solid #eee;
   margin-bottom: 50px;
+}
+
+.bodyColumn {
+  height: 500px;
+  font-size: 22px;
+}
+
+.book-consultation-btn {
+  padding: 30px;
+  font-size: 34px;
+  margin: 25px;
+  border-radius: 25px;
+  width: 50%;
+  border: 3px solid black;
+  transition: 0.5s;
+  background: #241844;
+  text-align: center;
+  text-decoration: none !important;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+.book-consultation-btn:hover {
+  transition: 0.5s;
+  background: #f26617;
+  color: white;
+  text-decoration: none !important;
+}
+
+.btn-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 671px) {
+  .body-container > p {
+    font-size: 12px !important;
+  }
+
+  .bodyColumn > ul {
+    font-size: 12px;
+  }
+
+  .bodyColumn > p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .body-container > p {
+    font-size: 12px !important;
+  }
+
+  .bodyColumn > ul {
+    font-size: 12px;
+  }
+
+  .bodyColumn > p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 868px) {
+  .body-container > p {
+    font-size: 20px !important;
+  }
+
+  .bodyColumn > ul {
+    font-size: 16px;
+  }
+
+  .bodyColumn > p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1204px) {
+  .body-container > p {
+    font-size: 20px !important;
+  }
+
+  .bodyColumn > ul {
+    font-size: 20px;
+  }
+
+  .bodyColumn > p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .book-consultation-btn {
+    font-size: 14px !important;
+  }
+
+  .book-consultation-btn:hover {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .book-consultation-btn {
+    font-size: 16px !important;
+    padding: 12px 25px !important;
+    width: 100%;
+  }
+
+  .book-consultation-btn:hover {
+    font-size: 16px !important;
+    padding: 12px 25px;
+    width: 100%;
+  }
 }

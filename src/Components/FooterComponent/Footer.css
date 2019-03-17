@@ -1,0 +1,17 @@
+.footer-container {
+  background: #210439;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-img {
+  width: 55%;
+}
+
+.copyright-footer {
+  font-size: 14px;
+  color: #eee;
+  margin: 50px 0 25px 0;
+}
