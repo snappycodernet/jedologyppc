@@ -1,36 +1,67 @@
 .header-container {
-  height: 400px;
-  background: #423075;
+  background: #060c3e;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
   flex-direction: column;
-  padding: 0;
-  margin: 0;
+  padding: 0 5% 0 5%;
   width: 100%;
+  height: 100vh;
+}
+
+.logo-container {
+  margin: 0 0 100px 0;
+}
+
+#companyName {
+  display: inline-block;
+  font-size: 14px;
+}
+
+hr {
+  border: 12px dotted rgba(247, 244, 244, 0.75);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  /*background-image: linear-gradient(to right, rgba(219, 216, 216, 0), rgba(187, 184, 184, 0.75), rgba(17, 1, 1, 0)); */
+  margin: 0;
+  width: 10%;
+}
+
+#logo {
+  left: 0;
+  width: 12%;
 }
 
 .header {
   letter-spacing: 5px;
-  background: #241844;
-  padding: 25px;
-  margin: 25px 0;
+  padding: 20px 0 0 0;
+  margin: 10px 0 0 0;
   width: 100%;
-  height: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  height: fit-content;
   color: white;
+  margin: 0 0 5% 0;
 }
 
-h2 {
-  font-size: 36px;
-  margin: 10px;
+.header-div {
+  margin: 5% 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.sub-heading {
+  letter-spacing: 1px;
+  font-size: 20px;
 }
 
 h1 {
   font-size: 52px;
-  margin: 10px;
+  margin-bottom: 3%;
+}
+
+@media only screen and (max-width: 920px) {
+  .header-container {
+    height: fit-content;
+  }
 }

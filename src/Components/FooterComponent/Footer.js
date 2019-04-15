@@ -7,7 +7,7 @@ const Footer = props => {
     <div className="footer-container">
       <img className="footer-img" src={footerImg} alt="NightSky" />
       <div>
-        <p className="copyright-footer">Copyright &copy; 2019 Jedology PPC</p>
+        <p className="copyright-footer">Copyright &copy; 2019 Jedology PPC - Jedology@Outlook.com</p>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 .footer-container {
-  background: #210439;
+  background: #060c3e;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,10 +8,11 @@
 
 .footer-img {
   width: 55%;
+  border-radius: 20%;
 }
 
 .copyright-footer {
-  font-size: 14px;
+  font-size: 12px;
   color: #eee;
   margin: 50px 0 25px 0;
 }

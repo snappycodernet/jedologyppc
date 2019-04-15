@@ -1,43 +1,59 @@
 .body-container {
-  background: #776a9d;
-  padding: 75px;
+  background: #060c3e;
+  display: flex;
+  padding: 0 5% 5% 5%;
+  justify-content: left;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
 }
 
-.bodyRow {
-  height: 90%;
+.bodyWordsImg {
+  width: 100%;
+  margin-top: -10%;
 }
 
-.bodyText {
-  background: #f5f5f5;
-  padding: 25px;
-  border-radius: 35px;
-  margin-bottom: 50px;
+.bodyChartImg {
+  width: 65%;
+  float: right;
 }
 
-.bodyColumn {
-  height: 500px;
-  font-size: 22px;
+.chartImgRow {
+  height: fit-content;
+}
+
+.chartImgRow > div {
+  height: fit-content;
+}
+
+.bodyParagraph {
+  font-size: 2.2vw;
+}
+
+.row {
+  margin-top: 5%;
+  margin-bottom: 7%;
 }
 
 .book-consultation-btn {
-  padding: 30px;
-  font-size: 34px;
-  margin: 25px;
-  border-radius: 25px;
-  width: 50%;
-  border: 3px solid black;
+  font-size: 2vw;
+  border-radius: 0 0 15px 15px;
+  padding: 15px 0;
   transition: 0.5s;
-  background: #241844;
+  background: #7fdbff;
   text-align: center;
   text-decoration: none !important;
-  color: white;
+  color: black;
   cursor: pointer;
   text-align: center;
+  width: 75%;
 }
 
 .book-consultation-btn:hover {
   transition: 0.5s;
-  background: #f26617;
+  background: #7d26cd;
   color: white;
   text-decoration: none !important;
 }
@@ -49,82 +65,9 @@
   justify-content: center;
 }
 
-@media only screen and (max-width: 671px) {
-  .body-container > p {
-    font-size: 12px !important;
-  }
-
-  .bodyColumn > ul {
-    font-size: 12px;
-  }
-
-  .bodyColumn > p {
-    font-size: 12px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .body-container > p {
-    font-size: 12px !important;
-  }
-
-  .bodyColumn > ul {
-    font-size: 12px;
-  }
-
-  .bodyColumn > p {
-    font-size: 12px;
-  }
-}
-
-@media only screen and (min-width: 868px) {
-  .body-container > p {
-    font-size: 20px !important;
-  }
-
-  .bodyColumn > ul {
-    font-size: 16px;
-  }
-
-  .bodyColumn > p {
-    font-size: 16px;
-  }
-}
-
-@media only screen and (min-width: 1204px) {
-  .body-container > p {
-    font-size: 20px !important;
-  }
-
-  .bodyColumn > ul {
-    font-size: 20px;
-  }
-
-  .bodyColumn > p {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .book-consultation-btn {
-    font-size: 14px !important;
-  }
-
-  .book-consultation-btn:hover {
-    font-size: 14px !important;
-  }
-}
-
-@media only screen and (max-width: 490px) {
-  .book-consultation-btn {
-    font-size: 16px !important;
-    padding: 12px 25px !important;
-    width: 100%;
-  }
-
-  .book-consultation-btn:hover {
-    font-size: 16px !important;
-    padding: 12px 25px;
+@media only screen and (max-width: 920px) {
+  .bodyChartImg {
+    float: none;
     width: 100%;
   }
 }

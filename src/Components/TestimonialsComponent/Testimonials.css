@@ -1,14 +1,25 @@
 .testimonials-container {
-  padding: 70px;
-  background: hsl(257, 62%, 73%);
+  padding: 0;
+  padding-bottom: 25px;
+  background: #060c3e;
+  height: 100vh;
 }
 
 .testimonials-header {
-  background: #241844;
+  background: #7fdbff;
   padding: 25px;
-  margin: 25px;
-  border-radius: 25px;
-  color: #f5f5f5;
+  margin: 0 0 100px 0;
+  color: black;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.testimonial-section {
+  display: flex;
+  justify-content: center;
 }
 
 .fa-comment {
@@ -38,6 +49,12 @@ blockquote {
 
 @media only screen and (max-width: 721px) {
   .testimonials-header > h1 {
-    font-size: 16px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .testimonials-container {
+    height: fit-content;
   }
 }
